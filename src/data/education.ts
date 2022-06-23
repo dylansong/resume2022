@@ -7,6 +7,6 @@ export const educations: EducationProps[] = [
     end: "2010-06",
     degree: "Bachelor of Science",
     school: "China Southeast University",
-    major: "Department of Computer Science",
+    major: "Major : Computer Science",
   },
 ];

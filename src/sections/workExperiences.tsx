@@ -7,11 +7,13 @@ export const WorkExperiencesSection = () => {
     <div className="px-12 mt-8">
       <Title title="work experience" />
       {workExperiences.map((experience) => {
-        const { start, end, position, corporation, description } = experience;
+        const { start, end, position, corporation, city, description } =
+          experience;
         return (
           <WorkExperience
             start={start}
             end={end}
+            city={city}
             position={position}
             corporation={corporation}
             description={description}

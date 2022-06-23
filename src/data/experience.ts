@@ -5,6 +5,7 @@ export const workExperiences: WorkExperienceProps[] = [
     start: "2014-03-",
     end: "present",
     position: "SENIOR SOFTWARE ENGINEER",
+    city: "Regina, SK CANADA",
     corporation: "SKLIFE INFORMATION TECHNOLOGY",
     description: [
       "SKLIFE INFORMATION TECHNOLOGY builds digital marketing platforms for financial management companies and real estate sales companies in Canada.",
@@ -17,6 +18,7 @@ export const workExperiences: WorkExperienceProps[] = [
     start: "2013-07-",
     end: "present",
     position: "SENIOR SOFTWARE ENGINEER",
+    city: "",
     corporation: "Shanghai Elive Infotech co.ltd",
     description: [
       "Shanghai Elive Infotech co.ltd's client is a Chinese 4A advertising agency that works with almost all multinational pharmaceutical companies in China to produce, promote and operate all platforms of digital media.",
@@ -27,7 +29,8 @@ export const workExperiences: WorkExperienceProps[] = [
   {
     start: "2010-08-",
     end: "2013-06",
-    position: "SENIOR SOFTWARE ENGINEER",
+    city: "",
+    position: "SOFTWARE ENGINEER",
     corporation: "CMP Media CHINA Ltd",
     description: [
       "CMP media's clients are the marketing departments of some multinational pharmaceutical companies such as Prizer, Gsk, Astrazeneca, etc. in China. ",

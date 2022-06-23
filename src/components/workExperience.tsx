@@ -4,6 +4,7 @@ export type WorkExperienceProps = {
   start: string;
   end: string;
   position: string;
+  city: string;
   corporation: string;
   description: string[];
 };
@@ -12,6 +13,7 @@ export const WorkExperience: FC<WorkExperienceProps> = ({
   start,
   end,
   position,
+  city,
   corporation,
   description,
 }) => {
@@ -25,7 +27,12 @@ export const WorkExperience: FC<WorkExperienceProps> = ({
         <div className="font-semibold font-kanit text-lg -translate-y-1.5  capitalize">
           {position}
         </div>
-        <h2 className="font-mon text-sm -translate-y-1">{corporation}</h2>
+        <div className="flex">
+          <h2 className="font-mon text-sm -translate-y-1">{corporation}</h2>
+          <h2 className="font-kanit text-[1rem] ml-2 -translate-y-1 font-bold">
+            {city}
+          </h2>
+        </div>
         <ul className="font-robo text-xs list-disc mt-1 bg-grb pl-6 pr-4 py-4 rounded-tl-lg rounded-br-lg leading-[1.7] w-full text-pri">
           {description.map((item) => {
             return <li>{item}</li>;
