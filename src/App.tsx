@@ -14,8 +14,6 @@ import { EducationsSection } from "./sections/educations";
 import { Footer } from "./sections/footer";
 
 function App() {
-  const [count, setCount] = useState(0);
-
   return (
     <div className="container mx-auto max-w-5xl">
       <Header />
