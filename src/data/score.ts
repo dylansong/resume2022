@@ -38,6 +38,11 @@ export const scoreData: SkillScoreRowProps[] = [
     score: 8,
   },
   {
+    topics: ["Dev"],
+    name: "Git",
+    score: 8,
+  },
+  {
     topics: ["game"],
     name: "Phaser.js",
     score: 9,
