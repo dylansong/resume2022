@@ -6,13 +6,13 @@ export const Header = () => {
       <Contact />
       <div>
         <h1 className="text-7xl font-extralight uppercase font-mon">
-          xiaosong
+          Dylan (Xiaosong)
         </h1>
         <h1 className="mb-3 text-7xl font-semibold uppercase font-kanit">
           zhang
         </h1>
         <div className="bg-pri inline px-4 py-2 font-extralight text-white">
-          FrontEnd Soft Engineer
+          Full Stack Developer
         </div>
       </div>
     </div>

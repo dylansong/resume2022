@@ -5,13 +5,16 @@ export const scoreData: SkillScoreRowProps[] = [
   { topics: ["fundamental"], name: "javascript", score: 9 },
   { topics: ["fundamental"], name: "typescript", score: 9 },
   { topics: ["fundamental", "ui"], name: "css", score: 9 },
-  { topics: ["react"], name: "react.js", score: 9 },
-  { topics: ["ui"], name: "tailwindcss", score: 9 },
-  { topics: ["ui", "react"], name: "emotion.js", score: 9 },
-  { topics: ["reactive"], name: "rx.js", score: 9 },
-  { topics: ["state management"], name: "xstate", score: 9 },
-  { topics: ["database", "graphql"], name: "hasura", score: 8 },
-  { topics: ["database", "graphql"], name: "prisma", score: 8 },
+  { topics: ["react", "frontend"], name: "react.js", score: 9 },
+  { topics: ["vue", "frontend"], name: "vue.js", score: 8 },
+  { topics: ["ui", "css"], name: "tailwindcss", score: 9 },
+  { topics: ["frontend", "reactive"], name: "rx.js", score: 9 },
+  { topics: ["frontend", "state management"], name: "xstate", score: 9 },
+  { topics: ["frontend", "state management"], name: "jotai", score: 9 },
+  { topics: ["backend"], name: "node.js", score: 9 },
+  { topics: ["database"], name: "postgresql", score: 9 },
+  { topics: ["database"], name: "sqlite", score: 9 },
+  { topics: ["database"], name: "mysql", score: 7 },
   {
     topics: ["database", "graphql"],
     name: "apollo client",
@@ -22,10 +25,11 @@ export const scoreData: SkillScoreRowProps[] = [
     name: "mongodb",
     score: 7,
   },
+
   {
-    topics: ["database"],
-    name: "postgresql",
-    score: 6,
+    topics: ["backend", "database"],
+    name: "drizzle orm",
+    score: 9,
   },
   {
     topics: ["AWS"],
@@ -53,23 +57,13 @@ export const scoreData: SkillScoreRowProps[] = [
     score: 6,
   },
   {
-    topics: ["3d"],
-    name: "krpano",
-    score: 8,
-  },
-  {
     topics: ["mobile"],
     name: "flutter",
     score: 6,
   },
   {
-    topics: ["react", "mobile"],
+    topics: ["frontend", "react", "mobile"],
     name: "React Native",
-    score: 4,
-  },
-  {
-    topics: ["mobile"],
-    name: "swiftui",
     score: 4,
   },
   {
@@ -81,5 +75,10 @@ export const scoreData: SkillScoreRowProps[] = [
     topics: ["UI"],
     name: "FIGMA",
     score: 6,
+  },
+  {
+    topics: ["backend"],
+    name: "OpenShift",
+    score: 7,
   },
 ];
